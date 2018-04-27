@@ -1,0 +1,25 @@
+﻿<Window x:Class="ZoomSDKDemoForWebinar.ShareFromHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZoomSDKDemoForWebinar"
+        mc:Ignorable="d"
+        Title="ShareFromHome" Height="300" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="1" Name="MeetingId" Height="30" Width="200"></TextBox>
+
+        <Button Grid.Row="3" Content="join" Height="30" Width="50"  Name="btn_JoinAndRedirShareFromeHome" Click="btn_JoinAndRedirShareFromeHome_Click" ></Button>
+
+        <Button Grid.Row="4" Content="share" Height="30" Width="50"  Name="btn_ShareFromeHome" Click="btn_ShareFromeHome_Click" ></Button>
+    </Grid>
+</Window>
